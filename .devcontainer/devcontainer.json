@@ -24,6 +24,8 @@
 		// "--device=/dev/dri"
 
 	],
+	"mounts": ["source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/vscode/.ssh,readonly,type=bind"],
+	
 	"containerEnv": {
 		"DISPLAY": "${localEnv:DISPLAY}", 	// Needed for GUI try ":0" for windows
 		"WAYLAND_DISPLAY": "${localEnv:WAYLAND_DISPLAY}",

@@ -145,7 +145,7 @@ FROM althack/ros2:iron-dev AS builder
 # WORKDIR /src
 # RUN chown -R ros:ros /home/ros/workspaces/temp
 # WORKDIR /workspaces/mtc_panda_NaLaPRo/src
-RUN git clone https://github.com/ycheng517/tabletop-handybot.git /workspaces/mtc_panda_NaLaPRo/src
+# RUN git clone https://github.com/ycheng517/tabletop-handybot.git /workspaces/mtc_panda_NaLaPRo/src
 
 ###################################################
 # set up tabletop-handybot.repos
