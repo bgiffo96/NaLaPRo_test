@@ -1,0 +1,3 @@
+[submodule "src/tabletop-handybot"]
+	path = src/tabletop-handybot
+	url = https://github.com/ycheng517/tabletop-handybot.git
